@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "431393232458",
+    "project_id": "android-chat-24de4",
+    "storage_bucket": "android-chat-24de4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431393232458:android:5631ac40bf5f75529cb8b3",
+        "android_client_info": {
+          "package_name": "exercise.chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "431393232458-jql3k5193ehloeq05ta50reclrrffqts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvFzI1E66jVmx-2U9ADjyWtbpbqwiKha0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "431393232458-jql3k5193ehloeq05ta50reclrrffqts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
