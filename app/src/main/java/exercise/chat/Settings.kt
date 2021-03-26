@@ -30,7 +30,11 @@ class Settings: AppCompatActivity() {
         }
 
         val currentUser = intent.getParcelableExtra<FirebaseUser>("currentUser")
-        email.text = currentUser?.email
+        if (currentUser?.email != null) {
+            email.text = currentUser?.email
+        } else {
+            email.text = "Not logged in"
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
